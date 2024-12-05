@@ -4,7 +4,6 @@ import com.kris.pass.model.PassStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.time.LocalDateTime;
 
@@ -18,5 +17,7 @@ public class PassResponseDTO {
     private LocalDateTime updatedAt;
     private String personSurname;
     private PassStatus status;
+    private LocalDateTime beginTime;
+    private LocalDateTime endTime;
 
 }

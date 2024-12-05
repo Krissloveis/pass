@@ -23,7 +23,6 @@ public class Pass {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     @Column(name = "id")
     private Long passID;
 
@@ -43,6 +42,10 @@ public class Pass {
 
     @Enumerated (EnumType.STRING)
     private PassStatus status = PassStatus.ACTIVE;
+
+    private LocalDateTime beginTime;
+
+    private LocalDateTime endTime;
 
 
 }
