@@ -18,6 +18,7 @@ public class PassRequestDTO {
     private PassStatus status;
     private LocalDateTime beginTime;
     private LocalDateTime endTime;
+    private Long zoneId;
 
 
 }

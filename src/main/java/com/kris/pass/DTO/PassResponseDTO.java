@@ -1,6 +1,7 @@
 package com.kris.pass.DTO;
 
 import com.kris.pass.model.PassStatus;
+import com.kris.pass.model.Zone;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -19,5 +20,6 @@ public class PassResponseDTO {
     private PassStatus status;
     private LocalDateTime beginTime;
     private LocalDateTime endTime;
+    private Zone zone;
 
 }

@@ -1,3 +1,7 @@
 databaseChangeLog:
   - include:
       file: liquibase/scripts/2024-12-05_create_pass.sql
+  - include:
+      file: liquibase/scripts/2024-12-19_create_zone.sql
+  - include:
+      file: liquibase/scripts/2024-12-19_add_zone_id_to_pass.sql
