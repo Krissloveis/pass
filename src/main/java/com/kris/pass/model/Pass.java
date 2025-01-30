@@ -53,7 +53,5 @@ public class Pass {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "zone_id")
     private Zone zone;
-
-
 }
 

@@ -34,6 +34,6 @@ public class Zone {
     @Column(name = "added_at")
     private LocalDateTime addedAt;
 
-//    @OneToMany(mappedBy = "zone", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-//    private List<Pass> passes;
+    @OneToMany(mappedBy = "zone", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<Pass> passes;
 }
